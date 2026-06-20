@@ -27,7 +27,7 @@ public class Alumno {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @Column(length = 20, nullable = false, unique = true)
+    @Column(length = 20, nullable = git remote add origin https://github.com/Nxlogix/api-alumnos.gitfalse, unique = true)
     /** Matrícula del alumno. Única y no nula. */
     private String matricula;
 
